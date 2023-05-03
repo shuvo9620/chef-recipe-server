@@ -1,0 +1,58 @@
+{
+    "chefs": [
+        {
+            "picture": "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "John Smith",
+            "experience": 10,
+            "recipes": 50,
+            "likes": 100,
+            "buttonText": "View Recipes",
+            "id": 1
+        },
+        {
+            "picture": "https://images.pexels.com/photos/7488995/pexels-photo-7488995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Jane Doe",
+            "experience": 8,
+            "recipes": 40,
+            "likes": 80,
+            "buttonText": "View Recipes",
+            "id": 2
+        },
+        {
+            "picture": "https://images.pexels.com/photos/13599643/pexels-photo-13599643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Bob Johnson",
+            "experience": 5,
+            "recipes": 20,
+            "likes": 40,
+            "buttonText": "View Recipes",
+            "id": 3
+        },
+        {
+            "picture": "https://images.pexels.com/photos/8862206/pexels-photo-8862206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Emily Lee",
+            "experience": 3,
+            "recipes": 15,
+            "likes": 30,
+            "buttonText": "View Recipes",
+            "id": 4
+        },
+        {
+            "picture": "https://images.pexels.com/photos/8477293/pexels-photo-8477293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Mike Rodriguez",
+            "experience": 12,
+            "recipes": 60,
+            "likes": 120,
+            "buttonText": "View Recipes",
+            "id": 5
+        },
+        {
+            "picture": "https://images.pexels.com/photos/8523524/pexels-photo-8523524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Samantha Nguyen",
+            "experience": 7,
+            "recipes": 35,
+            "likes": 70,
+            "buttonText": "View Recipes",
+            "id": 6
+        }
+    ]
+}
