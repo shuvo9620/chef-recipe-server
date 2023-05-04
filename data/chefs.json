@@ -1,58 +1,374 @@
-{
-    "chefs": [
-        {
-            "picture": "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "John Smith",
-            "experience": 10,
-            "recipes": 50,
-            "likes": 100,
-            "buttonText": "View Recipes",
-            "id": 1
-        },
-        {
-            "picture": "https://images.pexels.com/photos/7488995/pexels-photo-7488995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Jane Doe",
-            "experience": 8,
-            "recipes": 40,
-            "likes": 80,
-            "buttonText": "View Recipes",
-            "id": 2
-        },
-        {
-            "picture": "https://images.pexels.com/photos/13599643/pexels-photo-13599643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Bob Johnson",
-            "experience": 5,
-            "recipes": 20,
-            "likes": 40,
-            "buttonText": "View Recipes",
-            "id": 3
-        },
-        {
-            "picture": "https://images.pexels.com/photos/8862206/pexels-photo-8862206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Emily Lee",
-            "experience": 3,
-            "recipes": 15,
-            "likes": 30,
-            "buttonText": "View Recipes",
-            "id": 4
-        },
-        {
-            "picture": "https://images.pexels.com/photos/8477293/pexels-photo-8477293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Mike Rodriguez",
-            "experience": 12,
-            "recipes": 60,
-            "likes": 120,
-            "buttonText": "View Recipes",
-            "id": 5
-        },
-        {
-            "picture": "https://images.pexels.com/photos/8523524/pexels-photo-8523524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Samantha Nguyen",
-            "experience": 7,
-            "recipes": 35,
-            "likes": 70,
-            "buttonText": "View Recipes",
-            "id": 6
-        }
-    ]
-}
+[
+    {
+        "picture": "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "John Smith",
+        "experience": 10,
+        "recipes": 50,
+        "likes": 100,
+        "buttonText": "View Recipes",
+        "id": 1,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": true
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    },
+    {
+        "picture": "https://images.pexels.com/photos/7488995/pexels-photo-7488995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Jane Doe",
+        "experience": 8,
+        "recipes": 40,
+        "likes": 80,
+        "buttonText": "View Recipes",
+        "id": 2,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": true
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    },
+    {
+        "picture": "https://images.pexels.com/photos/13599643/pexels-photo-13599643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Bob Johnson",
+        "experience": 5,
+        "recipes": 20,
+        "likes": 40,
+        "buttonText": "View Recipes",
+        "id": 3,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    },
+    {
+        "picture": "https://images.pexels.com/photos/8862206/pexels-photo-8862206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Emily Lee",
+        "experience": 3,
+        "recipes": 15,
+        "likes": 30,
+        "buttonText": "View Recipes",
+        "id": 4,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    },
+    {
+        "picture": "https://images.pexels.com/photos/8477293/pexels-photo-8477293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mike Rodriguez",
+        "experience": 12,
+        "recipes": 60,
+        "likes": 120,
+        "buttonText": "View Recipes",
+        "id": 5,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    },
+    {
+        "picture": "https://images.pexels.com/photos/8523524/pexels-photo-8523524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Samantha Nguyen",
+        "experience": 7,
+        "recipes": 35,
+        "likes": 70,
+        "buttonText": "View Recipes",
+        "id": 6,
+        "recipe": [
+            {
+                "id": 1,
+                "chefId": 1,
+                "name": "pasta pizza with tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 2,
+                "chefId": 1,
+                "name": "pasta pizza with tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            },
+            {
+                "id": 3,
+                "chefId": 1,
+                "name": "Pasta Pizza with Tomato",
+                "food_image": "https://img.freepik.com/free-vector/colorful-round-tasty-pizza_1284-10219.jpg?w=740&t=st=1683197258~exp=1683197858~hmac=e4669d716474e91062666eee9a18087b435ab1e75bad050d52b3c33cbb18e020",
+                "ingredients": [
+                    "name: Pasta",
+                    "quantity:200g",
+                    "2 tbsp. lemon juice",
+                    "1 clove garlic, minced",
+                    "1/4 tsp. salt",
+                    "1/4 tsp. black pepper"
+                ],
+                "cookingMethod": "Preheat the oven to 425°F (220°C). \n2. Cook the pasta according to the package instructions and drain. \n3. Mix the pasta with tomato sauce and season with salt and pepper to taste. \n4. Spread the pasta mixture evenly in a baking dish. \n5. Top with shredded mozzarella cheese.",
+                "rating": 4.8,
+                "isFavorite": false
+            }
+        ]
+    }
+]
